@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Details</title>
+    <link rel="stylesheet" href="styles2.css">
+    <script src="scripts.js" defer></script> 
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id= navbar>
+    
+        <span class=opennav onclick="openNav()">&#9776;</span>
+    
+        <div class="navigation">
+            <ul>
+                <a href="keyboards.html" class="home-button">Home</a>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Shopping Cart</a></li>
+            </ul>
+        </div>
+    
+        <nav class="sidenav" id=sidenav>
+            <div class="top-content">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Offers</a>
+                <a href="#">Collections</a>
+                <a href="#">FAQ</a>
+                <a href="#">Contact Us</a> 
+            </div>
+            <div class="bottom-content">
+                <a href="facebook.com"><img src="facebook.png" alt="facebook" class="social"></a>
+                <a href="instagram.com"><img src="instagram.png" alt="facebook" class="social"></a>
+                <a href="youtube.com"><img src="youtube.png" alt="facebook" class="social"></a>
+            </div>
+        </nav>
+        <a href="#" class="login">Log In</a>
+    </header>
+
+
+
+
+     <div id="heading-after">
+            
+         <h1 id="header-title">Upgrade Your Typing Game with Keyboards</h1>
+         <p id="header-subtitle">Discover a wide range of keyboards to suit your needs, from gaming to mechanical, at our store.</p>
+   
+    </div>
+    <div class="container">
+        <div class="keyboard-details">
+            <h1 id="keyboard-name"></h1>
+            <img id="keyboard-image" src="" alt="">
+            <p id="keyboard-description"></p>
+            <p id="keyboard-price"></p>
+            <div id="additional-details" style="display: none;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas sed tempus urna et pharetra pharetra massa. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
+           </div>
+          <button id="show-details-button" onclick="toggleDetails()">Show More Details</button>
+        </div>
+
+        <div class="button-container">
+            <button class="button" onclick="addToCart()">Add to Cart</button>
+            
+        </div>
+    </div>
+<div class="sidebar">
+        <h2>Other Products</h2>
+        <ul>
+            <li><a href="keyboard_details.html?name=Redragon%20K552&image=black1.jpg&description=Mechanical%20Gaming%20Keyboard%20LED%20Rainbow%20Backlit%20Wired.&price=1770EGP">Redragon K552</a></li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboards</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id= navbar>
+    
+        <span class=opennav onclick="openNav()">&#9776;</span>
+    
+        <div class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Shopping Cart</a></li>
+            </ul>
+        </div>
+    
+        <nav class="sidenav" id=sidenav>
+            <div class="top-content">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Offers</a>
+                <a href="#">Collections</a>
+                <a href="#">FAQ</a>
+                <a href="#">Contact Us</a> 
+            </div>
+            <div class="bottom-content">
+                <a href="facebook.com"><img src="facebook.png" alt="facebook" class="social"></a>
+                <a href="instagram.com"><img src="instagram.png" alt="facebook" class="social"></a>
+                <a href="youtube.com"><img src="youtube.png" alt="facebook" class="social"></a>
+            </div>
+        </nav>
+        <a href="#" class="login">Log In</a>
+        <img src="night-mode.png" alt="" id="nightmode" onclick="nightmode()">
+    </header>
+
+
+
+
+     <div id="heading-after">
+            
+         <h1 id="header-title">Upgrade Your Typing Game with Keyboards</h1>
+         <p id="header-subtitle">Discover a wide range of keyboards to suit your needs, from gaming to mechanical, at our store.</p>
+   
+    </div>
+
+
+
+
+    <!-- Keyboards -->
+    
+        
+        <div id="Keyboards-collection">
+            <!-- Keyboard Item 1 -->
+        <div class="keyboard-item" onclick="showKeyboardDetails('Redragon K552', 'black1.jpg', 'Mechanical Gaming Keyboard LED Rainbow Backlit Wired.', '1770EGP')">
+            <img src="black1.jpg" alt="Redragon K552">
+    <div class="keyboard-item-content">
+        <h3 class="keyboard-item-heading">Redragon K552</h3>
+        <p class="keyboard-item-description">Mechanical Gaming Keyboard LED Rainbow Backlit Wired.</p>
+        <p class="keyboard-price">Price: 1,770EGP</p> 
+    </div>
+</div>
+<!-- Keyboard Item 2 -->
+        <div class="keyboard-item" onclick="showKeyboardDetails('Logitech G213', 'black2.jpg', 'Prodigy Gaming Keyboard, LIGHTSYNC RGB Backlit Keys, Spill-Resistant, Customizable Keys, Dedicated Multi-Media Keys – Black.', '3333EGP')">
+            <img src="black2.jpg" alt="Logitech G213">
+            <div class="keyboard-item-content">
+                <h3 class="keyboard-item-heading">Logitech G213</h3>
+                <p class="keyboard-item-description">Prodigy Gaming Keyboard, LIGHTSYNC RGB Backlit Keys, Spill-Resistant, Customizable Keys, Dedicated Multi-Media Keys – Black.</p>
+                <p class="keyboard-price">Price: 3,333EGP</p>
+            </div>
+        </div>
+        <!-- Keyboard Item 3 -->
+        <div class="keyboard-item" onclick="showKeyboardDetails('T-DAGGER TGK313', 'black3.jpg', 'BORA Gaming Mechanical Keyboard - Rainbow LED Lighting -TKL Size 87 Key - AR/EN.', '1173EGP')">
+            <img src="black3.jpg" alt="T-DAGGER TGK313">
+            <div class="keyboard-item-content">
+                <h3 class="keyboard-item-heading">T-DAGGER TGK313</h3>
+                <p class="keyboard-item-description">BORA Gaming Mechanical Keyboard - Rainbow LED Lighting -TKL Size 87 Key - AR/EN.</p>
+                <p class="keyboard-price">Price: 1,173EGP</p>
+            </div>
+        </div>
+        <!-- Keyboard Item 4 -->
+        <div class="keyboard-item" onclick="showKeyboardDetails('Meetion C510', 'black4.jpg', '2-in1 Combo Rainbow Backlit Gaming Keyboard and Mouse for Computer PC/Laptop (English/Arabic) - Black.', '850EGP')">
+            <img src="black4.jpg" alt="Meetion C510">
+            <div class="keyboard-item-content">
+                <h3 class="keyboard-item-heading">Meetion C510</h3>
+                <p class="keyboard-item-description">2-in1 Combo Rainbow Backlit Gaming Keyboard and Mouse for Computer PC/Laptop (English/Arabic) - Black.</p>
+                <p class="keyboard-price">Price: 850EGP</p>
+            </div>
+        </div>
+        <!-- Keyboard Item 5 -->
+        <div class="keyboard-item" onclick="showKeyboardDetails('GameStop GS200', 'white2.jpg', 'RGB Gaming Mechanical Keyboard-Outemu Brown Switches-1000Hz Polling Rate-FPS Sniper.', '999EGP')">
+            <img src="white2.jpg" alt="GameStop GS200">
+            <div class="keyboard-item-content">
+                <h3 class="keyboard-item-heading">GameStop GS200</h3>
+                <p class="keyboard-item-description">RGB Gaming Mechanical Keyboard-Outemu Brown Switches-1000Hz Polling Rate-FPS Sniper.</p>
+                <p class="keyboard-price">Price: 999EGP</p>
+            </div>
+        </div>
+        <!-- Keyboard Item 6 -->
+        <div class="keyboard-item" onclick="showKeyboardDetails('REDRAGON K616', 'white1.jpg', 'RGB 60% Gaming Wireless & Bluetooth Mechanical Keyboard - Red Switches - 3 Connection Modes (Wired, Wireless 2.4Ghz and Bluetooth) .', '3250EGP')">
+            <img src="white1.jpg" alt="REDRAGON K616">
+            <div class="keyboard-item-content">
+                <h3 class="keyboard-item-heading">REDRAGON K616</h3>
+                <p class="keyboard-item-description">RGB 60% Gaming Wireless & Bluetooth Mechanical Keyboard - Red Switches - 3 Connection Modes (Wired, Wireless 2.4Ghz and Bluetooth) .</p>
+                <p class="keyboard-price">Price: 3,250EGP</p>
+            </div>
+        </div>
+        <!-- Keyboard Item 7 -->
+        <div class="keyboard-item" onclick="showKeyboardDetails('Logitech G915 LIGHTSPEED', 'white3.jpg', 'Tenkeyless Wireless Mechanical Gaming Keyboard with low profile GL-Tactile key switches, LIGHTSYNC RGB, Ultra thin design, 40+ hours battery life, QWERTY UK Layout - WhiteTenkeyless Wireless Mechanical Gaming KeyboarD', '8400EGP')">
+            <img src="white3.jpg" alt="Logitech G915 LIGHTSPEED">
+            <div class="keyboard-item-content">
+                <h3 class="keyboard-item-heading">Logitech G915 LIGHTSPEED</h3>
+                <p class="keyboard-item-description">Tenkeyless Wireless Mechanical Gaming Keyboard with low profile GL-Tactile key switches, LIGHTSYNC RGB, Ultra thin design, 40+ hours battery life, QWERTY UK Layout - WhiteTenkeyless Wireless Mechanical Gaming Keyboard</p>
+                <p class="keyboard-price">Price: 8,400EGP</p>
+            </div>
+        </div>
+        <!-- Keyboard Item 8 -->
+        <div class="keyboard-item" onclick="showKeyboardDetails('AULA F3087', 'white4.jpg', 'White Mechanical Gaming Keyboard, with Blue Switches, LED Backlit, 87 Keys Anti-ghosting USB Wired Computer Keyboards.', '1100EGP')">
+            <img src="white4.jpg" alt="AULA F3087">
+            <div class="keyboard-item-content">
+                <h3 class="keyboard-item-heading">AULA F3087</h3>
+                <p class="keyboard-item-description">White Mechanical Gaming Keyboard, with Blue Switches, LED Backlit, 87 Keys Anti-ghosting USB Wired Computer Keyboards.</p>
+                <p class="keyboard-price">Price: 1,100EGP</p>
+            </div>
+        </div>
+        <!-- Keyboard Item 9 -->
+        <div class="keyboard-item" onclick="showKeyboardDetails('Apple Magic Keyboard', 'wireless1.jpg', 'Sleek, wireless, rechargeable, and Type-C compatible. Ideal for Mac and iOS devices.', '4999EGP')">
+            <img src="wireless1.jpg" alt="Apple Magic Keyboard">
+            <div class="keyboard-item-content">
+                <h3 class="keyboard-item-heading">Apple Magic Keyboard</h3>
+                <p class="keyboard-item-description">Sleek, wireless, rechargeable, and Type-C compatible. Ideal for Mac and iOS devices.</p>
+                <p class="keyboard-price">Price: 4,999EGP</p>
+            </div>
+        </div>
+        <!-- Keyboard Item 10 -->
+        <div class="keyboard-item" onclick="showKeyboardDetails('FOREV FV-W10', 'wireless2.jpg', 'Colorful Wireless Keyboard And Mouse Combo | Arabic/EN Retro Typewriter Keycap | Pink.', '1950EGP')">
+            <img src="wireless2.jpg" alt="FOREV FV-W10">
+            <div class="keyboard-item-content">
+                <h3 class="keyboard-item-heading">FOREV FV-W10</h3>
+                <p class="keyboard-item-description">Colorful Wireless Keyboard And Mouse Combo | Arabic/EN Retro Typewriter Keycap | Pink.</p>
+                <p class="keyboard-price">Price: 1,950EGP</p>
+            </div>
+        </div>
+        <!-- Keyboard Item 11 -->
+        <div class="keyboard-item" onclick="showKeyboardDetails('iClever BK08', 'wireless3.jpg', 'Pocket-Sized Tri-Folded Foldable Bluetooth Keyboard with Sensitive Touchpad.', '5999EGP')">
+            <img src="wireless3.jpg" alt="iClever BK08">
+            <div class="keyboard-item-content">
+                <h3 class="keyboard-item-heading">iClever BK08</h3>
+                <p class="keyboard-item-description">Pocket-Sized Tri-Folded Foldable Bluetooth Keyboard with Sensitive Touchpad.</p>
+                <p class="keyboard-price">Price: 5,999EGP</p>
+            </div>
+        </div>
+        <!-- Keyboard Item 12 -->
+        <div class="keyboard-item" onclick="showKeyboardDetails('Logitech K400 Plus', 'wireless4.jpg', 'Wireless (English & Arabic) Keyboard With Easy Media Control and Built-in Touchpad.', '2299EGP')">
+            <img src="wireless4.jpg" alt="Logitech K400 Plus">
+            <div class="keyboard-item-content">
+                <h3 class="keyboard-item-heading">Logitech K400 Plus</h3>
+                <p class="keyboard-item-description">Wireless (English & Arabic) Keyboard With Easy Media Control and Built-in Touchpad.</p>
+                <p class="keyboard-price">Price: 2,299EGP</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
