@@ -1,0 +1,78 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+nav {
+    background-color: #FF0000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+main {
+    padding: 20px;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+    .product-container img {
+        width: 150px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .price,
+    .product-container h3 {
+        color: #FF0000;
+    }
+
+.price {
+    font-weight: bold;
+}
+
+button {
+    background-color: #FF0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* the end of the project */
+
+/*Designed by Omar Gaber*/
